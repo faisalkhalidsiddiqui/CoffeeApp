@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400C957B1F9CBB3300151434 /* AppUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400C957A1F9CBB3300151434 /* AppUpdater.swift */; };
+		400FFC121F9C73D90061CB21 /* proximanova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400FFC111F9C73D90061CB21 /* proximanova-regular.ttf */; };
+		400FFC131F9C73D90061CB21 /* proximanova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400FFC111F9C73D90061CB21 /* proximanova-regular.ttf */; };
+		400FFC141F9C73D90061CB21 /* proximanova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400FFC111F9C73D90061CB21 /* proximanova-regular.ttf */; };
+		400FFC151F9C73F60061CB21 /* proximanova-regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 400FFC111F9C73D90061CB21 /* proximanova-regular.ttf */; };
+		40204F5F1F9873E500D7AB25 /* ReviewOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204F5E1F9873E500D7AB25 /* ReviewOrderTableViewCell.swift */; };
+		40204F611F98752C00D7AB25 /* ReviewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40204F601F98752C00D7AB25 /* ReviewOrderViewController.swift */; };
+		406F0FDB1F9C65160024E0A5 /* ProximaNova.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F0FDA1F9C65160024E0A5 /* ProximaNova.ttf */; };
+		406F0FDC1F9C65160024E0A5 /* ProximaNova.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F0FDA1F9C65160024E0A5 /* ProximaNova.ttf */; };
+		406F0FDD1F9C65160024E0A5 /* ProximaNova.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F0FDA1F9C65160024E0A5 /* ProximaNova.ttf */; };
+		406F0FDE1F9C65270024E0A5 /* ProximaNova.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 406F0FDA1F9C65160024E0A5 /* ProximaNova.ttf */; };
 		4093C27C1F8F58F40071FDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093C27B1F8F58F40071FDAD /* AppDelegate.swift */; };
 		4093C27E1F8F58F40071FDAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093C27D1F8F58F40071FDAD /* ViewController.swift */; };
 		4093C2811F8F58F40071FDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4093C27F1F8F58F40071FDAD /* Main.storyboard */; };
@@ -15,6 +26,14 @@
 		4093C2891F8F58F40071FDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4093C2871F8F58F40071FDAD /* LaunchScreen.storyboard */; };
 		4093C2941F8F58F50071FDAD /* CoffeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093C2931F8F58F50071FDAD /* CoffeeTests.swift */; };
 		4093C29F1F8F58F50071FDAD /* CoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093C29E1F8F58F50071FDAD /* CoffeeUITests.swift */; };
+		40ACC3241F95E6410029B0B3 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACC3231F95E6410029B0B3 /* Beverage.swift */; };
+		40ACC3261F95E79F0029B0B3 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACC3251F95E79F0029B0B3 /* Cart.swift */; };
+		40ACC3281F95F2580029B0B3 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACC3271F95F2580029B0B3 /* Networking.swift */; };
+		40ACC32A1F95F4C20029B0B3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACC3291F95F4C20029B0B3 /* User.swift */; };
+		40ACC32C1F9600130029B0B3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACC32B1F9600130029B0B3 /* Order.swift */; };
+		40ACC32E1F971D1E0029B0B3 /* BeverageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACC32D1F971D1E0029B0B3 /* BeverageCollectionViewCell.swift */; };
+		40B527221F98A4AC008CF40D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B527211F98A4AC008CF40D /* LoginViewController.swift */; };
+		F3ADD96BF7936EFFFA33855D /* Pods_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9450A1B433D8E1F942CE2 /* Pods_Coffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		400C957A1F9CBB3300151434 /* AppUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdater.swift; sourceTree = "<group>"; };
+		400FFC111F9C73D90061CB21 /* proximanova-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proximanova-regular.ttf"; sourceTree = "<group>"; };
+		40204F5E1F9873E500D7AB25 /* ReviewOrderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOrderTableViewCell.swift; sourceTree = "<group>"; };
+		40204F601F98752C00D7AB25 /* ReviewOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOrderViewController.swift; sourceTree = "<group>"; };
+		406F0FDA1F9C65160024E0A5 /* ProximaNova.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProximaNova.ttf; sourceTree = "<group>"; };
 		4093C2781F8F58F40071FDAD /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4093C27B1F8F58F40071FDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4093C27D1F8F58F40071FDAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,16 @@
 		4093C29A1F8F58F50071FDAD /* CoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4093C29E1F8F58F50071FDAD /* CoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUITests.swift; sourceTree = "<group>"; };
 		4093C2A01F8F58F50071FDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ACC3231F95E6410029B0B3 /* Beverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		40ACC3251F95E79F0029B0B3 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		40ACC3271F95F2580029B0B3 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		40ACC3291F95F4C20029B0B3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		40ACC32B1F9600130029B0B3 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		40ACC32D1F971D1E0029B0B3 /* BeverageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeverageCollectionViewCell.swift; sourceTree = "<group>"; };
+		40B527211F98A4AC008CF40D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		50912EE1BDBFB18544F000EE /* Pods-Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee/Pods-Coffee.release.xcconfig"; sourceTree = "<group>"; };
+		8CF9450A1B433D8E1F942CE2 /* Pods_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD541899866EA3B9180AB8E /* Pods-Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coffee/Pods-Coffee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ADD96BF7936EFFFA33855D /* Pods_Coffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02DF30CF030E303466B99232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9450A1B433D8E1F942CE2 /* Pods_Coffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2544995FDD994F2127018D25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BD541899866EA3B9180AB8E /* Pods-Coffee.debug.xcconfig */,
+				50912EE1BDBFB18544F000EE /* Pods-Coffee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4093C26F1F8F58F40071FDAD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				4093C2921F8F58F50071FDAD /* CoffeeTests */,
 				4093C29D1F8F58F50071FDAD /* CoffeeUITests */,
 				4093C2791F8F58F40071FDAD /* Products */,
+				2544995FDD994F2127018D25 /* Pods */,
+				02DF30CF030E303466B99232 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +153,21 @@
 		4093C27A1F8F58F40071FDAD /* Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				400FFC111F9C73D90061CB21 /* proximanova-regular.ttf */,
+				406F0FDA1F9C65160024E0A5 /* ProximaNova.ttf */,
+				40204F5E1F9873E500D7AB25 /* ReviewOrderTableViewCell.swift */,
 				4093C27B1F8F58F40071FDAD /* AppDelegate.swift */,
 				4093C27D1F8F58F40071FDAD /* ViewController.swift */,
+				40ACC3231F95E6410029B0B3 /* Beverage.swift */,
+				40204F601F98752C00D7AB25 /* ReviewOrderViewController.swift */,
+				40ACC3291F95F4C20029B0B3 /* User.swift */,
+				40ACC3251F95E79F0029B0B3 /* Cart.swift */,
+				40ACC32B1F9600130029B0B3 /* Order.swift */,
+				40ACC3271F95F2580029B0B3 /* Networking.swift */,
 				4093C27F1F8F58F40071FDAD /* Main.storyboard */,
+				400C957A1F9CBB3300151434 /* AppUpdater.swift */,
+				40B527211F98A4AC008CF40D /* LoginViewController.swift */,
+				40ACC32D1F971D1E0029B0B3 /* BeverageCollectionViewCell.swift */,
 				4093C2851F8F58F40071FDAD /* Assets.xcassets */,
 				4093C2871F8F58F40071FDAD /* LaunchScreen.storyboard */,
 				4093C28A1F8F58F40071FDAD /* Info.plist */,
@@ -135,9 +201,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4093C2A31F8F58F50071FDAD /* Build configuration list for PBXNativeTarget "Coffee" */;
 			buildPhases = (
+				E33E4913E49DD521488BB2EA /* [CP] Check Pods Manifest.lock */,
 				4093C2741F8F58F40071FDAD /* Sources */,
 				4093C2751F8F58F40071FDAD /* Frameworks */,
 				4093C2761F8F58F40071FDAD /* Resources */,
+				AD523F71C19BC47C4739B5F7 /* [CP] Embed Pods Frameworks */,
+				76077DF65E149C031062A8B8 /* [CP] Copy Pods Resources */,
+				4094CAE51F9DA98B00254C71 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -196,7 +266,7 @@
 				TargetAttributes = {
 					4093C2771F8F58F40071FDAD = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = HC8QRF8C7D;
+						DevelopmentTeam = XGW2AE8NLN;
 						ProvisioningStyle = Automatic;
 					};
 					4093C28E1F8F58F50071FDAD = {
@@ -238,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406F0FDB1F9C65160024E0A5 /* ProximaNova.ttf in Resources */,
+				400FFC121F9C73D90061CB21 /* proximanova-regular.ttf in Resources */,
 				4093C2891F8F58F40071FDAD /* LaunchScreen.storyboard in Resources */,
 				4093C2861F8F58F40071FDAD /* Assets.xcassets in Resources */,
 				4093C2811F8F58F40071FDAD /* Main.storyboard in Resources */,
@@ -248,6 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400FFC131F9C73D90061CB21 /* proximanova-regular.ttf in Resources */,
+				406F0FDC1F9C65160024E0A5 /* ProximaNova.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,19 +329,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400FFC141F9C73D90061CB21 /* proximanova-regular.ttf in Resources */,
+				406F0FDD1F9C65160024E0A5 /* ProximaNova.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4094CAE51F9DA98B00254C71 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 4159b92d22765016fd74c5cc47f1744d7e3505e5 42954f88ebfa7bd42e83690fc0bd7b36ddaaf4305c428d01f65acbb433f931cc";
+		};
+		76077DF65E149C031062A8B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee/Pods-Coffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD523F71C19BC47C4739B5F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33E4913E49DD521488BB2EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4093C2741F8F58F40071FDAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400FFC151F9C73F60061CB21 /* proximanova-regular.ttf in Sources */,
+				406F0FDE1F9C65270024E0A5 /* ProximaNova.ttf in Sources */,
+				40B527221F98A4AC008CF40D /* LoginViewController.swift in Sources */,
+				40204F5F1F9873E500D7AB25 /* ReviewOrderTableViewCell.swift in Sources */,
+				40204F611F98752C00D7AB25 /* ReviewOrderViewController.swift in Sources */,
 				4093C27E1F8F58F40071FDAD /* ViewController.swift in Sources */,
 				4093C2841F8F58F40071FDAD /* Coffee.xcdatamodeld in Sources */,
+				40ACC32C1F9600130029B0B3 /* Order.swift in Sources */,
+				40ACC3261F95E79F0029B0B3 /* Cart.swift in Sources */,
+				40ACC3281F95F2580029B0B3 /* Networking.swift in Sources */,
+				40ACC3241F95E6410029B0B3 /* Beverage.swift in Sources */,
+				40ACC32E1F971D1E0029B0B3 /* BeverageCollectionViewCell.swift in Sources */,
 				4093C27C1F8F58F40071FDAD /* AppDelegate.swift in Sources */,
+				40ACC32A1F95F4C20029B0B3 /* User.swift in Sources */,
+				400C957B1F9CBB3300151434 /* AppUpdater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,27 +571,39 @@
 		};
 		4093C2A41F8F58F50071FDAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD541899866EA3B9180AB8E /* Pods-Coffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HC8QRF8C7D;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGW2AE8NLN;
 				INFOPLIST_FILE = Coffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.drinks1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4093C2A51F8F58F50071FDAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50912EE1BDBFB18544F000EE /* Pods-Coffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HC8QRF8C7D;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XGW2AE8NLN;
 				INFOPLIST_FILE = Coffee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.Coffee;
+				PRODUCT_BUNDLE_IDENTIFIER = ae.shjcoop.drinks1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -520,6 +684,7 @@
 				4093C2A51F8F58F50071FDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4093C2A61F8F58F50071FDAD /* Build configuration list for PBXNativeTarget "CoffeeTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +693,7 @@
 				4093C2A81F8F58F50071FDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4093C2A91F8F58F50071FDAD /* Build configuration list for PBXNativeTarget "CoffeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +702,7 @@
 				4093C2AB1F8F58F50071FDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
